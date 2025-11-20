@@ -1,0 +1,30 @@
+command_id: 7C6.7CE.22B002|fc=1
+test_cases:
+- expected_values:
+    EV6_ODO_KM: 0
+    EV6_ODO_MI: 34528
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FFAF00000000
+    7CE2286E0AAAAAAAAAA
+- expected_values:
+    EV6_ODO_KM: 0
+    EV6_ODO_MI: 34529
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FFAF00000000
+    7CE2286E1AAAAAAAAAA
+- expected_values:
+    EV6_ODO_KM: 0
+    EV6_ODO_MI: 34530
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FFAF00000000
+    7CE2286E2AAAAAAAAAA
+- expected_values:
+    EV6_ODO_KM: 0
+    EV6_ODO_MI: 34528
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FFB000000000
+    7CE2286E0AAAAAAAAAA

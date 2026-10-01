@@ -4,4 +4,9 @@ test_cases:
     EV6_LIGHTS_CODE: 0
   response: |-
     778100962BC10FFE000
+    77821000000AAAAAAAA
+- expected_values:
+    EV6_LIGHTS_CODE: 0
+  response: |-
+    778100962BC10FFE000
     77821000006AAAAAAAA

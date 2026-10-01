@@ -3,8 +3,8 @@ test_cases:
 - expected_values:
     EV6_TP_FL: 28.8
     EV6_TP_FR: 28.4
-    EV6_TP_RL: 0
-    EV6_TP_RR: 0
+    EV6_TT_FL: -5
+    EV6_TT_FR: -6
   response: |-
     7A8102462C00BFFFFFF
     7A82180902D0004008E
@@ -17,6 +17,10 @@ test_cases:
     EV6_TP_FR: 28.6
     EV6_TP_RL: 28.4
     EV6_TP_RR: 28.4
+    EV6_TT_FL: -5
+    EV6_TT_FR: -6
+    EV6_TT_RL: -5
+    EV6_TT_RR: -5
   response: |-
     7A8102462C00BFFFFFF
     7A82180902D0004008F
@@ -29,6 +33,10 @@ test_cases:
     EV6_TP_FR: 28.8
     EV6_TP_RL: 28.8
     EV6_TP_RR: 28.6
+    EV6_TT_FL: -4
+    EV6_TT_FR: -6
+    EV6_TT_RL: -4
+    EV6_TT_RR: -5
   response: |-
     7A8102462C00BFFFFFF
     7A82180932E00040090
@@ -41,6 +49,10 @@ test_cases:
     EV6_TP_FR: 29
     EV6_TP_RL: 29.4
     EV6_TP_RR: 29
+    EV6_TT_FL: -3
+    EV6_TT_FR: -4
+    EV6_TT_RL: -3
+    EV6_TT_RR: -3
   response: |-
     7A8102462C00BFFFFFF
     7A82180942F00040091
@@ -53,6 +65,10 @@ test_cases:
     EV6_TP_FR: 29.6
     EV6_TP_RL: 29.4
     EV6_TP_RR: 29.4
+    EV6_TT_FL: -2
+    EV6_TT_FR: -3
+    EV6_TT_RL: -1
+    EV6_TT_RR: -2
   response: |-
     7A8102462C00BFFFFFF
     7A82180953000040094
@@ -65,6 +81,10 @@ test_cases:
     EV6_TP_FR: 31.2
     EV6_TP_RL: 31
     EV6_TP_RR: 31.2
+    EV6_TT_FL: 9
+    EV6_TT_FR: 9
+    EV6_TT_RL: 9
+    EV6_TT_RR: 10
   response: |-
     7A8102462C00BFFFFFF
     7A821809E3B0006009C
@@ -77,6 +97,10 @@ test_cases:
     EV6_TP_FR: 29.6
     EV6_TP_RL: 28.8
     EV6_TP_RR: 29
+    EV6_TT_FL: 11
+    EV6_TT_FR: 0
+    EV6_TT_RL: 0
+    EV6_TT_RR: 0
   response: |-
     7A8102462C00BFFFFFF
     7A82180A03D00060094
@@ -89,6 +113,10 @@ test_cases:
     EV6_TP_FR: 31.8
     EV6_TP_RL: 31.6
     EV6_TP_RR: 31.6
+    EV6_TT_FL: 11
+    EV6_TT_FR: 11
+    EV6_TT_RL: 13
+    EV6_TT_RR: 13
   response: |-
     7A8102462C00BFFFFFF
     7A82180A03D0006009F

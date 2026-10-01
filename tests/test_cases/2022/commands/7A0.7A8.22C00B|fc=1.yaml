@@ -1,6 +1,38 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
+    EV6_TP_FL: null
+    EV6_TP_FR: null
+    EV6_TP_RL: null
+    EV6_TP_RR: null
+    EV6_TT_FL: null
+    EV6_TT_FR: null
+    EV6_TT_RL: null
+    EV6_TT_RR: null
+  response: |-
+    7A8102462C00BFFFFFF
+    7A82180000000000200
+    7A82200000002000000
+    7A82300020000000002
+    7A82432FFFFFFFFFFFF
+    7A825FFFFAAAAAAAAAA
+- expected_values:
+    EV6_TP_FL: null
+    EV6_TP_FR: null
+    EV6_TP_RL: null
+    EV6_TP_RR: null
+    EV6_TT_FL: null
+    EV6_TT_FR: null
+    EV6_TT_RL: null
+    EV6_TT_RR: null
+  response: |-
+    7A8102462C00BFFFFFF
+    7A82180000000000200
+    7A82200000002000000
+    7A82300020000000002
+    7A824FFFFFFFFFFFFFF
+    7A825FFFFAAAAAAAAAA
+- expected_values:
     EV6_TP_FL: 28.8
     EV6_TP_FR: 28.4
     EV6_TT_FL: -5
@@ -58,22 +90,6 @@ test_cases:
     7A82180942F00040091
     7A8222E000400932F00
     7A8230400912F000400
-    7A8242C8DB08DB08DB0
-    7A8258DB0AAAAAAAAAA
-- expected_values:
-    EV6_TP_FL: 29.8
-    EV6_TP_FR: 29.6
-    EV6_TP_RL: 29.4
-    EV6_TP_RR: 29.4
-    EV6_TT_FL: -2
-    EV6_TT_FR: -3
-    EV6_TT_RL: -1
-    EV6_TT_RR: -2
-  response: |-
-    7A8102462C00BFFFFFF
-    7A82180953000040094
-    7A8222F000400933100
-    7A82304009330000400
     7A8242C8DB08DB08DB0
     7A8258DB0AAAAAAAAAA
 - expected_values:

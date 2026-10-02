@@ -4,12 +4,22 @@ test_cases:
     EV6_BRAKE_LIGHT: 0
   response: |-
     778100B62BC06B40000
+    778216D00000000AAAA
+- expected_values:
+    EV6_BRAKE_LIGHT: 0
+  response: |-
+    778100B62BC06B40000
     778216D00000080AAAA
 - expected_values:
     EV6_BRAKE_LIGHT: 4
   response: |-
     778100B62BC06B40000
     778216D04000080AAAA
+- expected_values:
+    EV6_BRAKE_LIGHT: 41
+  response: |-
+    778100B62BC06B40000
+    778216D29000080AAAA
 - expected_values:
     EV6_BRAKE_LIGHT: 44
   response: |-

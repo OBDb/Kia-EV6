@@ -1,4 +1,5 @@
 { "ecu": [
+    { "hdr": "7A0", "type": "bodyControl" },
     { "hdr": "7E4", "type": "battery" }
   ],
   "commands": [

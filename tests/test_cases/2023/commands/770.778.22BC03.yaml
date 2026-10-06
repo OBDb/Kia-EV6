@@ -1,0 +1,37 @@
+command_id: 770.778.22BC03
+test_cases:
+- expected_values:
+    EV6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    778216300060000AAAA
+- expected_values:
+    EV6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    778216300660000AAAA
+- expected_values:
+    EV6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    77821630A060000AAAA
+- expected_values:
+    EV6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    77821630E060000AAAA
+- expected_values:
+    EV6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    778216320060000AAAA
+- expected_values:
+    EV6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    77821638A060000AAAA
+- expected_values:
+    EV6_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    77821638E060000AAAA

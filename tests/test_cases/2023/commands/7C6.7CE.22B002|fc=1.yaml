@@ -1,6 +1,12 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
+    EV6_ODO_MI: 12153
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FF9C00000000
+    7CE222F79AAAAAAAAAA
+- expected_values:
     EV6_ODO_MI: 27426
   response: |-
     7CE100F62B002D00000
@@ -10,13 +16,13 @@ test_cases:
     EV6_ODO_MI: 12153
   response: |-
     7CE100F62B002D00000
-    7CE2100FF9E00000000
+    7CE2100FF9F00000000
     7CE222F79AAAAAAAAAA
 - expected_values:
     EV6_ODO_MI: 12153
   response: |-
     7CE100F62B002D00000
-    7CE2100FF9F00000000
+    7CE2100FFA000000000
     7CE222F79AAAAAAAAAA
 - expected_values:
     EV6_ODO_MI: 27424
@@ -41,10 +47,4 @@ test_cases:
   response: |-
     7CE100F62B002E00000
     7CE2100FFAE019D4F00
-    7CE220000AAAAAAAAAA
-- expected_values:
-    EV6_ODO_KM: 105799
-  response: |-
-    7CE100F62B002E00000
-    7CE2100FFB0019D4700
     7CE220000AAAAAAAAAA

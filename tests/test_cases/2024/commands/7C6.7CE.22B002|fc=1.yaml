@@ -1,6 +1,10 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
+    EV6_ODO_KM: 22004
+  response: "7CE 10 0F 62 B0 02 E0 00 00 \n7CE 21 00 FF 97 00 55 F4 00 \n7CE 22 00
+    00 AA AA AA AA AA "
+- expected_values:
     EV6_ODO_MI: 18467
   response: |-
     7CE100F62B002D00000
@@ -42,6 +46,12 @@ test_cases:
     7CE100F62B002D00000
     7CE2100FFB100000000
     7CE224823AAAAAAAAAA
+- expected_values:
+    EV6_ODO_KM: 22004
+  response: |-
+    7CE100F62B002E00000
+    7CE2100FF990055F400
+    7CE220000AAAAAAAAAA
 - expected_values:
     EV6_ODO_KM: 21976
   response: |-

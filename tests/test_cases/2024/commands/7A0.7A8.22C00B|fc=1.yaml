@@ -9,6 +9,18 @@ test_cases:
     EV6_TT_FR: null
     EV6_TT_RL: null
     EV6_TT_RR: null
+  response: "7A8 10 24 62 C0 0B FF FF FF \n7A8 21 80 00 00 00 00 02 00 \n7A8 22 00
+    00 00 02 00 00 00 \n7A8 23 00 02 00 00 00 00 02 \n7A8 24 FF FF FF FF FF FF FF
+    \n7A8 25 FF FF AA AA AA AA AA "
+- expected_values:
+    EV6_TP_FL: null
+    EV6_TP_FR: null
+    EV6_TP_RL: null
+    EV6_TP_RR: null
+    EV6_TT_FL: null
+    EV6_TT_FR: null
+    EV6_TT_RL: null
+    EV6_TT_RR: null
   response: |-
     7A8102462C00BFFFFFF
     7A82180000000000200

@@ -5,11 +5,11 @@ test_cases:
   response: "7CE 10 0F 62 B0 02 E0 00 00 \n7CE 21 00 FF 97 00 55 F4 00 \n7CE 22 00
     00 AA AA AA AA AA "
 - expected_values:
-    EV6_ODO_MI: 18467
+    EV6_ODO_MI: 18988
   response: |-
     7CE100F62B002D00000
-    7CE2100FF9B00000000
-    7CE224823AAAAAAAAAA
+    7CE2100FF9700000000
+    7CE224A2CAAAAAAAAAA
 - expected_values:
     EV6_ODO_MI: 18471
   response: |-
@@ -34,12 +34,6 @@ test_cases:
     7CE100F62B002D00000
     7CE2100FFAC00000000
     7CE224900AAAAAAAAAA
-- expected_values:
-    EV6_ODO_MI: 18951
-  response: |-
-    7CE100F62B002D00000
-    7CE2100FFAC00000000
-    7CE224A07AAAAAAAAAA
 - expected_values:
     EV6_ODO_MI: 18467
   response: |-

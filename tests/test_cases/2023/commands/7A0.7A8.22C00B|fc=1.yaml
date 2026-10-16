@@ -131,6 +131,22 @@ test_cases:
 - expected_values:
     EV6_TP_FL: 32.8
     EV6_TP_FR: 33
+    EV6_TP_RL: 33
+    EV6_TP_RR: 33.6
+    EV6_TT_FL: 15
+    EV6_TT_FR: 15
+    EV6_TT_RL: 15
+    EV6_TT_RR: 15
+  response: |-
+    7A8102462C00BFFFFFF
+    7A82180A441000400A5
+    7A82241000400A54100
+    7A8230400A841000400
+    7A8243E8DB08DB08DB0
+    7A8258DB0AAAAAAAAAA
+- expected_values:
+    EV6_TP_FL: 32.8
+    EV6_TP_FR: 33
     EV6_TP_RL: 33.2
     EV6_TP_RR: 33
     EV6_TT_FL: 29

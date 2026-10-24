@@ -41,6 +41,12 @@ test_cases:
     7CE2100FFB000000000
     7CE224A75AAAAAAAAAA
 - expected_values:
+    EV6_ODO_MI: 19458
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FFB600000000
+    7CE224C02AAAAAAAAAA
+- expected_values:
     EV6_ODO_KM: 22067
   response: |-
     7CE100F62B002E00000

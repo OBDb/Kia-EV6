@@ -1,11 +1,11 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
-    EV6_ODO_MI: 44016
+    EV6_ODO_MI: 44601
   response: |-
     7CE100F62B002D00000
-    7CE2100FF9D00000000
-    7CE22ABF0AAAAAAAAAA
+    7CE2100FF9C00000000
+    7CE22AE39AAAAAAAAAA
 - expected_values:
     EV6_ODO_MI: 44543
   response: |-

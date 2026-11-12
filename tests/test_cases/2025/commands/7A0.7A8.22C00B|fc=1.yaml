@@ -188,6 +188,18 @@ test_cases:
     7A824538DB08DB08DB0
     7A8258DB0AAAAAAAAAA
 - expected_values:
+    EV6_TP_FL: 35.6
+    EV6_TP_FR: 35.8
+    EV6_TP_RL: 33.4
+    EV6_TP_RR: 36
+    EV6_TT_FL: 25
+    EV6_TT_FR: 23
+    EV6_TT_RL: 16
+    EV6_TT_RR: 24
+  response: "7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 B2 4B 01 00 00 B3 \n7A8 22 49
+    01 00 00 A7 42 02 \n7A8 23 00 00 B4 4A 01 00 00 \n7A8 24 FF 8D B0 8D B0 8D B0
+    \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
     EV6_TP_FL: null
     EV6_TP_FR: null
     EV6_TP_RL: null

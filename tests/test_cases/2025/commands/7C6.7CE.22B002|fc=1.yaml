@@ -81,6 +81,18 @@ test_cases:
     7CE2216C00000B80488
     7CE2300000000AAAAAA
 - expected_values:
+    EV6_ODO_MI: 16532
+  response: "7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 98 00 00 00 00 \n7CE 22 40
+    94 00 00 9B 01 34 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
+    EV6_ODO_MI: 16532
+  response: "7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 99 00 00 00 00 \n7CE 22 40
+    94 00 00 9D 01 2C \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
+    EV6_ODO_MI: 16532
+  response: "7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF B2 00 00 00 00 \n7CE 22 40
+    94 00 00 B5 01 10 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
     EV6_ODO_KM: null
     EV6_ODO_MI: null
   response: |-

@@ -19,6 +19,12 @@ test_cases:
     7CE2100FF9E00000000
     7CE226C00AAAAAAAAAA
 - expected_values:
+    EV6_ODO_MI: 28437
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FF9E00000000
+    7CE226F15AAAAAAAAAA
+- expected_values:
     EV6_ODO_MI: 12153
   response: |-
     7CE100F62B002D00000
@@ -30,12 +36,6 @@ test_cases:
     7CE100F62B002D00000
     7CE2100FFA000000000
     7CE222F79AAAAAAAAAA
-- expected_values:
-    EV6_ODO_MI: 28426
-  response: |-
-    7CE100F62B002D00000
-    7CE2100FFAD00000000
-    7CE226F0AAAAAAAAAAA
 - expected_values:
     EV6_ODO_MI: 27505
   response: |-

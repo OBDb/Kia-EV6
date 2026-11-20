@@ -1,6 +1,66 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
+    EV6_TP_FL: 36.4
+    EV6_TP_FR: 36.4
+    EV6_TP_RL: 36.6
+    EV6_TP_RR: 36.6
+    EV6_TT_FL: 30
+    EV6_TT_FR: 28
+    EV6_TT_RL: 29
+    EV6_TT_RR: 29
+  response: "22C00B\n7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 B6 50 01 00 00 B6 \n7A8
+    22 4E 01 00 00 B7 4F 01 \n7A8 23 00 00 B7 4F 01 00 00 \n7A8 24 46 8D B0 8D B0
+    8D B0 \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
+    EV6_TP_FL: 36.4
+    EV6_TP_FR: 36.6
+    EV6_TP_RL: 36.8
+    EV6_TP_RR: 37
+    EV6_TT_FL: 32
+    EV6_TT_FR: 30
+    EV6_TT_RL: 30
+    EV6_TT_RR: 30
+  response: "22C00B\n7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 B6 52 01 00 00 B7 \n7A8
+    22 50 01 00 00 B8 50 01 \n7A8 23 00 00 B9 50 01 00 00 \n7A8 24 46 8D B0 8D B0
+    8D B0 \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
+    EV6_TP_FL: 36.8
+    EV6_TP_FR: 37
+    EV6_TP_RL: 37
+    EV6_TP_RR: 37.4
+    EV6_TT_FL: 35
+    EV6_TT_FR: 33
+    EV6_TT_RL: 33
+    EV6_TT_RR: 33
+  response: "22C00B\n7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 B8 55 01 00 00 B9 \n7A8
+    22 53 01 00 00 B9 53 01 \n7A8 23 00 00 BB 53 01 00 00 \n7A8 24 46 8D B0 8D B0
+    8D B0 \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
+    EV6_TP_FL: 36.8
+    EV6_TP_FR: 37
+    EV6_TP_RL: 37.2
+    EV6_TP_RR: 37.2
+    EV6_TT_FL: 35
+    EV6_TT_FR: 33
+    EV6_TT_RL: 34
+    EV6_TT_RR: 33
+  response: "22C00B\n7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 B8 55 01 00 00 B9 \n7A8
+    22 53 01 00 00 BA 54 01 \n7A8 23 00 00 BA 53 01 00 00 \n7A8 24 46 8D B0 8D B0
+    8D B0 \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
+    EV6_TP_FL: 37
+    EV6_TP_FR: 37.2
+    EV6_TP_RL: 37.2
+    EV6_TP_RR: 37.6
+    EV6_TT_FL: 34
+    EV6_TT_FR: 32
+    EV6_TT_RL: 33
+    EV6_TT_RR: 32
+  response: "22C00B\n7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 B9 54 01 00 00 BA \n7A8
+    22 52 01 00 00 BA 53 01 \n7A8 23 00 00 BC 52 01 00 00 \n7A8 24 46 8D B0 8D B0
+    8D B0 \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
     EV6_TP_FL: 31.8
     EV6_TP_FR: 32.2
     EV6_TP_RL: 32

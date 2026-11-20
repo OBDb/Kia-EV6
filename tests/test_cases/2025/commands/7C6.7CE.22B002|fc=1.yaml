@@ -1,21 +1,25 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
 - expected_values:
+    EV6_ODO_MI: 16864
+  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 97 00 00 00 00 \n7CE
+    22 41 E0 00 00 9A 00 00 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
     EV6_ODO_MI: 5816
   response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 99 00 00 00 00 \n7CE
     22 16 B8 00 00 9D 02 18 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
-    EV6_ODO_MI: 5816
-  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 9A 00 00 00 00 \n7CE
-    22 16 B8 00 00 9D 02 20 \n7CE 23 00 00 00 00 AA AA AA "
+    EV6_ODO_MI: 16864
+  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 9B 00 00 00 00 \n7CE
+    22 41 E0 00 00 9F 00 00 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
+    EV6_ODO_MI: 16863
+  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF A9 00 00 00 00 \n7CE
+    22 41 DF 00 00 AC 00 00 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     EV6_ODO_MI: 5818
   response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF B4 00 00 00 00 \n7CE
     22 16 BA 00 00 B8 05 A0 \n7CE 23 00 00 00 00 AA AA AA "
-- expected_values:
-    EV6_ODO_MI: 5819
-  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF B4 00 00 00 00 \n7CE
-    22 16 BB 00 00 B8 04 10 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
     EV6_ODO_MI: 16631
   response: |-

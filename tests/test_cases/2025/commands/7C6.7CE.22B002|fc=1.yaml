@@ -5,6 +5,10 @@ test_cases:
   response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 97 00 00 00 00 \n7CE
     22 41 E0 00 00 9A 00 00 \n7CE 23 00 00 00 00 AA AA AA "
 - expected_values:
+    EV6_ODO_MI: 16913
+  response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 97 00 00 00 00 \n7CE
+    22 42 11 00 00 9B 00 00 \n7CE 23 00 00 00 00 AA AA AA "
+- expected_values:
     EV6_ODO_MI: 5816
   response: "22B002\n7CE 10 18 62 B0 02 D6 00 00 \n7CE 21 00 FF 99 00 00 00 00 \n7CE
     22 16 B8 00 00 9D 02 18 \n7CE 23 00 00 00 00 AA AA AA "

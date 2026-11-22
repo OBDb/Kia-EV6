@@ -1,6 +1,30 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
+    EV6_TP_FL: 33.2
+    EV6_TP_FR: 33.4
+    EV6_TP_RL: 33.4
+    EV6_TP_RR: 33.6
+    EV6_TT_FL: 14
+    EV6_TT_FR: 14
+    EV6_TT_RL: 14
+    EV6_TT_RR: 14
+  response: "22C00B\n7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 A6 40 01 00 00 A7 \n7A8
+    22 40 01 00 00 A7 40 01 \n7A8 23 00 00 A8 40 01 00 00 \n7A8 24 40 8D B0 8D B0
+    8D B0 \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
+    EV6_TP_FL: 33.8
+    EV6_TP_FR: 34
+    EV6_TP_RL: 34
+    EV6_TP_RR: 34.2
+    EV6_TT_FL: 16
+    EV6_TT_FR: 15
+    EV6_TT_RL: 16
+    EV6_TT_RR: 16
+  response: "22C00B\n7A8 10 24 62 C0 0B FF FF FF \n7A8 21 F8 A9 42 01 00 00 AA \n7A8
+    22 41 01 00 00 AA 42 01 \n7A8 23 00 00 AB 42 01 00 00 \n7A8 24 40 8D B0 8D B0
+    8D B0 \n7A8 25 8D B0 AA AA AA AA AA "
+- expected_values:
     EV6_TP_FL: 35.2
     EV6_TP_FR: 35.4
     EV6_TP_RL: 35.4

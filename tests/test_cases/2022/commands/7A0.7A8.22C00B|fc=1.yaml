@@ -1,6 +1,23 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
+    EV6_TP_FL: 33.6
+    EV6_TP_FR: 32.6
+    EV6_TP_RL: 34
+    EV6_TP_RR: 33.6
+    EV6_TT_FL: 14
+    EV6_TT_FR: 13
+    EV6_TT_RL: 13
+    EV6_TT_RR: 13
+  response: |-
+    22C00B
+    7A8102462C00BFFFFFF
+    7A82180A840000400A3
+    7A8223F000500AA3F00
+    7A8230500A83F000400
+    7A8243D8DB08DB08DB0
+    7A8258DB0AAAAAAAAAA
+- expected_values:
     EV6_TP_FL: null
     EV6_TP_FR: null
     EV6_TP_RL: null
